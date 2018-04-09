@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Clase 2</title>
+</head>
+<body >
+
+    <table border = "0" style="width:500px;" >
+       <tfoot>
+        <caption>Tabla de Prueba</caption>
+        </tfoot>
+     <thead>
+        <tr>
+        <th>Legajo</th>
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>Edad</th>
+    </tr>
+    </thead>        
+    <tbody>
+    <tr>
+        
+        <td colspan="2">Juan</td>
+        <td>Perez</td>
+        <td>45</td>
+    </tr>
+    <tr>
+        <td rowspan="2" >123</td>
+        <td>Juan</td>
+        <td>Perez</td>
+        <td>45</td>
+        </tr>
+        <tr>
+        
+        <td>Juan</td>
+        <td>Perez</td>
+        <td>45</td>
+        </tr>
+    </tbody>
+    <tfoot>
+            <tr>
+            <td>123</td>
+              <td>pedro</td>      
+                    <td>Lopez</td>
+                    <td>45</td>
+                    </tr>
+                    <tr>
+                    <td>123</td>
+                    <td>Pedro</td>
+                    <td>Lopez</td>
+                    <td>45</td>
+                    </tr>        
+        </tfoot>
+
+
+    </table>
+
+    <br><br><br>
+    
+    <form action= "#" method="GET" enctype="multipart/form-data"  >
+       <label for="txtnombre" > Ingrese Nombre</label> 
+        <input type="text" name="nombre" id="txtnombre" placeholder="ingrese nombre"> <br><br>
+        <br><br>
+        <input type="submit" value="Enviar info" >
+
+        <input type="reset"><br><br>
+        <fieldset>
+            <legend>Lenguajes</legend>
+             <input type="checkbox" name="csharp" id="" disabled >C# <br>
+            <input type="checkbox" name="java" id="" checked >Java<br>
+            <input type="checkbox" name="javascript" id="" >Javascript<br>
+            
+        </fieldset>
+        <br>
+        <fieldset>
+                <legend>Genero</legend>
+                 <input type="radio" name="genero" id="" value="0" >Masculino<br>
+                <input type="radio" name="genero" id="" value="1" >Femenino<br>
+                <input type="radio" name="genero" id="" value="2" >Otro<br>
+                
+        </fieldset>
+        <br>
+        Localidad
+        <select name="localidad[]" id="cbolocalidad" size="3" multiple >
+        <option value="Avellaneda">Avellaneda</option>
+        <option value="1">Quilmes</option>
+        <option value="2">Bernal</option>
+        <option value="3">Lanus</option>
+        <option value="4" selected>Berazategui</option>
+        </select>        
+        
+        <br>
+        <br>
+        <br>
+        <br>
+        <select name="verduras" id="cboVerduras" size="4" >
+            <optgroup label="Frutas" >
+                <option value="0">Manzana</option>
+                    <option value="1">Banana</option>                
+            </optgroup>   
+            <optgroup label="Verduras">
+
+                <option value="2">Lechuga</option>
+                <option value="3">Tomata</option>
+                <option value="4">Acelga</option>
+            </optgroup>
+                </select> 
+                
+                <br>
+                <br>
+                <label for="txtemail" > Ingrese email</label> 
+               <input type="email" name="email" id="txtemail" placeholder="ingrese email" required >
+               <br>
+               <br>
+               <label for="txturl" > Ingrese Url</label>
+               <input type="url" name="url" id="txturl" required> 
+               <br>
+               <br>
+               <input type="file" name=""><br><br>
+               <input type="text" name="" id="" tabindex="1">
+               <input type="text" name="" id="" tabindex="2">
+               <input type="text" name="" id="" tabindex="3"><br>
+               <input type="text" name="" id="" tabindex="4">
+               <input type="text" name="" id=""tabindex="5">
+               <input type="text" name="" id="" tabindex="6"><br>
+               <input type="text" name="" id=""tabindex="7">
+               <input type="text" name="" id=""tabindex="8">
+               <input type="text" name="" id=""tabindex="9">
+               <br>
+               <br>
+               <input type="hidden" name="">
+            <input type="range" name="" id="" min="0" max = "10" >
+            <br><br>
+            <input type="number" name="" id="" min="0" max = "10" >
+            <br><br>
+    </form>
+    <br><br>
+
+    <video src="multimedia/video/vid.mp4" height="200px" controls  preload=""></video>
+
+
+
+
+    
+</body>
+</html>

@@ -1,0 +1,28 @@
+Clase 3
+Para aplicar a mas de una cosa el mismo estilo separo los selectores por comas, por ejemplo:
+h1, p {
+    background-color: blueviolet;
+}
+
+Si los selectores no los separo con coma entonces soy mas especifico para dar estilo a algo en particular, ejemplo:
+div p strong{
+}
+Un elemento puede pertenecer a más de una clase
+Propiedades relacionadas a las fuentes
+El navegador viene con algunas fuentes cargadas
+Al hacer:
+h1 {
+font-family: Arial, Helvetica, sans-serif;
+}
+Le digo que si tiene arial use arial, sino use helvética y si no sans-serif
+
+Tamaño de fuente hago:   font-size: 20px
+
+Lo que piden los navegadores es que el tamaño mas grande se usa h1 y achicando hasta h6
+
+Para fuentes hay un atajo para darle formatos y es elegir las opciones separadas por un espacio después de ‘font:’   Y lo ultimo que tengo que escribir es size y family
+Ejemplo: Font: italic small-caps 20px Arial;
+
+Contenedores:
+Margin: borde del contenedor hacia afuera
+Padding: borde del contenedor hacia adentro

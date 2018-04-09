@@ -1,0 +1,122 @@
+tablas
+
+<table>  encierra la tabla
+<tb> fila de la tabla
+<th> emcabezado de las tablas
+<td> celdas comunes de datos
+
+ <caption>titulo de la tabla</caption> 
+
+etiquetas semanticas
+<tfoot> pie de la tabla
+<thead>encabezado
+ <tbody> cuerpo
+
+usar stylo de un ccs
+border = "1" style="width:500px;" ( borde y tamaño)
+
+agrupar 2 celdas
+<td colspan="2"> se expande a la derechautilizo 2 o las celdas que quierp
+siempre tengo que eliminar una columna para poder tomarla
+
+<td rowspan="2">123</td> se expande hacia abajo
+
+los tengo que armar en las mismas etiquetas por que lo deforma
+
+puedo utilizar las 2 juntas 
+
+para armar las filas mas adelante
+"<tr><td>"+nombre+"</td><td>"+Apellido+"</td>"
+
+
+<input type="text" readonli(solo lectura)
+
+Formularios
+
+<form action= "#" method="GET" >
+
+<form action="Pagina del servidor que va a procesar la data " >
+"submit"  lanza el evento del action
+method="" get y post como le pasamos la data al servidor (postman)
+get = lo usamos para pedir informacion al servidor com select
+por get se ve la peticion en el navegador 
+http://localhost:8080/web/lab/clase2/?nombre=Leandro#
+
+method="GET" = lo uso para modificar algo en el servidor insert/update/delet
+method="POST" se pasa encriptado la peticion
+
+
+<legend>Lenguajes</legend>
+             <input type="checkbox" name="csharp" id="" >C# 
+etiqueta label 
+propiedad for enlazo el nombre con la caja de texto
+el for y el id ban con el mismo nombre
+el name de un control es como el nobre de la variable es la 
+referencia
+maxlengh cantiad de letras que pùedo poner
+input  placeholder= le pone una pabla al control
+
+<input type="submit" value="Enviar info" > 
+submit en value, le pongo el nombre que yo quiero al boton
+
+
+<input type="reset">
+input reset : borra lo que tengo en los controles
+
+
+<select name="localidad" id="cbolocalidad">
+        <option value="Avellaneda">Avellaneda</option>
+        <option value="1">Quilmes</option>
+options para seleccionar distintas opciones
+ size="3" al select te los muestra agrupados
+
+selected lo muestra primero
+ multiple si selecciono mas de uno tengo que cambiar nombre a que sea un array
+
+
+
+
+
+<fieldset>agrupo botones        </fieldset>
+
+<input type="radio" name="genero" id="" value="0" >Masculino<br>
+radio tienen que tener el mismo nombre por que son mutuamente excluyenbte
+le agrego un value que es el valor que me va a pasar
+
+
+<input type="file" name="">
+agregar en la etiqueta del formulario enctype="multipart/form-data"
+
+
+
+ <input type="hidden" name=""> 
+no quiero que se muestre el dato que esatoy mandando por ejemplo la hora que lo lleno
+
+
+<video src="multimedia/video/vid.wmv" height="200px
+poster""; para que lo bajes de una url
+
+
+
+
+CSS
+lo puedo poner en el head pero se hace un archivo aparte
+<style> 
+    h1{
+        background-color: blue;
+    }
+ </style>
+
+
+normalize.css me bajo el archivo y normalizo el navegador para que todos se vean iguales
+
+button 2  maneras de definirlos
+<button>pulsar </button><!-- a este se le puede poner una imagen se lo agrego entre las etiquetas -->
+
+<input type="button" value="otro boton" onclick="alert('HOLA MUNDO');" > <!-- a este no le puedo agregar nada -->
+a java script le puedo poner comilla simple entre comillas dobles
+
+evento onclick
+
+
+

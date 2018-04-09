@@ -1,0 +1,54 @@
+visual studio code
+Lenguajes;
+
+html
+css
+javascript
+Aajx - maneja el asincronizmo -  
+Bootstrap ( framework para ccs)- 
+Typescript es un super conjunto de javascript - lenguaje que traduce de timescrip a javascript
+Jquery (framework javascript)
+Framework conjunto de funciones
+Json - java sript object
+BOwer - administrador de paquetes
+
+pagina web:
+
+-Estructura; html - lenguaje demarcadoo con etiqueas
+
+-Estilo; css - diseño, tipografia, animacion , etc. -hojas de estilo en cascada - 
+
+-Logica; Javascript- como actua la pag con el usuario - maneja eventos
+
+
+! + tab crea la estructura
+head - configuracion de la pagina no se ve
+solo se ve la etiquete title
+
+Body - cuerpo
+
+charser juego de caracteres
+viewport se usa con boostrat para responsive
+encabezados etiqueta H1/h6
+<p> parrafo
+<!-- comentario-->  o c+tab  o  shift+alt +a comenta todo lo que seleccionas
+<br> salto de linea
+ &nbsp; espacio entre palabras
+<b> negrita </b>
+<i> italica </i> - <em> italica semantica </em>
+<strong> negtrita y destacada semantica  <strong>
+shif+alt+f  da formato a todo
+&copy; signo de copyright
+div id= un id solo le pertenece a un solo elemento
+class agrupa, asi luego puedo modificar a todos esos elementos
+
+img+tab para agregar imagen <img src"direccion de la imagen" alt"referencia que es">
+para una imagen en un nivel superior pongo ../
+listas 
+lista no ordenada <ul>  <li> list item - le pone puntos a los items
+lista ordenada <ol> la dif le pone numeros
+Lista de definiciones 
+<dl>
+
+para referenciar se usa <a href"">
+target="_blank" se abre en una nueva pestaña

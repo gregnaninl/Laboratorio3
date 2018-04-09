@@ -1,0 +1,26 @@
+
+h1 {
+    background-color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+body{
+
+    background-color: rgb(180, 179, 176);
+}
+#parrafo1{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: orange;
+}
+
+#parrafo2{
+
+    background-color: blanchedalmond;
+}
+
+.naranja{
+
+    background-color: blue;
+}
